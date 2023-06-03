@@ -1,0 +1,82 @@
+body {
+  margin: 10px;
+  font-family: Karla;
+  background: #0B2434;
+}
+
+.body-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  
+  background-color: #F5F5F5;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 34px;
+}
+
+.title {
+  font: Karla;
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 29.93px;
+  margin-bottom: 0;
+  letter-spacing: -0.03em;
+}
+
+.body-text {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 13.11px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  width: 234px;
+  height: 48px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  color: #4A4E74;
+}
+
+.roll-button {
+  border: none;
+  background-color: #5035FF;
+  color: #FFFFFF;
+  height: 36px;
+  width: 92px;
+  border-radius: 3.8px;
+  font-size: 16.38px;
+  line-height: 19px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.roll-button:focus {
+  outline: none;
+}
+
+.roll-button:active {
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 3.81px;
+  font-size: 20.6px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.die-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 17.9px;
+}
